@@ -1,0 +1,19 @@
+[libraries]
+server = { module = "io.ktor:ktor-server-core-jvm", version = "1.6.3" }
+websockets = { module = "io.ktor:ktor-server-websockets-jvm", version = "1.6.3" }
+serverCore = { module = "io.ktor:ktor-server-core-jvm", version = "1.6.3" }
+serverCallLogging = { module = "io.ktor:ktor-server-call-logging-jvm", version = "1.6.3" }
+contentNegotiation = { module = "io.ktor:ktor-server-content-negotiation-jvm", version = "1.6.3" }
+serialization = { module = "io.ktor:ktor-serialization-kotlinx-json", version = "1.3.0" }
+serializationKotlinxJson = { module = "io.ktor:ktor-serialization-kotlinx-json-jvm", version = "1.3.0" }
+gson = { module = "io.ktor:ktor-gson", version = "1.6.3" }
+serverNetty = { module = "io.ktor:ktor-server-netty-jvm", version = "1.6.3" }
+logbackClassic = { module = "ch.qos.logback:logback-classic", version = "1.5.0" }
+serverConfigYaml = { module = "io.ktor:ktor-server-config-yaml", version = "1.6.3" }
+serverTests = { module = "io.ktor:ktor-server-tests-jvm", version = "1.6.3" }
+kotlinTestJunit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version = "1.6.10" }
+
+# Koin
+koinCore = { module = "io.insert-koin:koin-core", version = "3.2.0" }
+koinKtor = { module = "io.insert-koin:koin-ktor", version = "3.2.0" }
+koinLoggerSlf4j = { module = "io.insert-koin:koin-logger-slf4j", version = "3.2.0" }
